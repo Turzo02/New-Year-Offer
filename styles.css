@@ -8,7 +8,7 @@
   width: 1320px;
   height: 600px;
   border-radius: 20px;
-  margin: 50px auto;
+  margin: 120px auto;
   object-fit: cover;
   background-image:linear-gradient(0deg, rgba(0, 0, 0, 0) , rgb(0, 4, 0)) , url(IMG/images/Banner\ Image.png) ;
   display: flex;
@@ -20,9 +20,7 @@
 
 /* Universal - Every section has margin bottom 120px */
 
-section{
-    margin-bottom: 120px;
-}
+
 
 
 .banner-txt{
@@ -68,7 +66,7 @@ width: 800px;
   width: 1320px;
   height: 600px;
   border-radius: 20px;
-  margin: 50px auto;
+  margin: 120px auto;
   object-fit: cover;
   background-image:linear-gradient(-90deg, rgba(0, 0, 0, 0) , rgb(0, 4, 0)) , url(IMG/images/Vectorrr.png) ;
   display: flex;
@@ -89,4 +87,44 @@ width: 800px;
     color: white;
     text-decoration: none;
     margin-top: 48px;
+}
+.info{
+ width: 1320px;
+  height: 600px;
+  border-radius: 20px;
+  margin: 120px auto;
+  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0) ,rgba(255, 192, 203, 0.596) ); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:126px ;
+  justify-content: center;
+
+}
+
+.info-txt{
+    font-size: 42px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.info-txt  span{
+    color: red;
+}
+
+.info button{
+
+    width: 170px;
+    height: 60px;
+  border-radius: 10px;
+  background-color: crimson;
+  color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.26);
+
 }
