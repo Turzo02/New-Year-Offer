@@ -10,57 +10,51 @@
   border-radius: 20px;
   margin: 120px auto;
   object-fit: cover;
-  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0) , rgb(0, 4, 0)) , url(IMG/images/Banner\ Image.png) ;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgb(0, 4, 0)),
+    url(IMG/images/Banner\ Image.png);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.26);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.096);
 }
 
 /* Universal - Every section has margin bottom 120px */
 
-
-
-
-.banner-txt{
-color: white;
+.banner-txt {
+  color: white;
 }
-.banner-heading1{
-    font-size: 72px;
+.banner-heading1 {
+  font-size: 72px;
 }
-.banner-heading3{
-    font-size: 32px;
+.banner-heading3 {
+  font-size: 32px;
 }
 
-
-
-.deals{
-    text-align: center;
-    
+.deals {
+  text-align: center;
 }
-.deals-details{
-    padding: 48px;
+.deals-details {
+  padding: 48px;
 }
 
-.deals-h1{
-    color: crimson;
-    font-size: 88px;
+.deals-h1 {
+  color: crimson;
+  font-size: 88px;
 }
-.deals-h5{
-    color: crimson;
-    font-size: 24px;
+.deals-h5 {
+  color: crimson;
+  font-size: 24px;
 }
-.deals-h2{
-    color: rgb(0, 0, 0);
-    font-size: 48px;
-}
-
-.deals-Img{
-width: 800px;
-    filter:drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.281));
+.deals-h2 {
+  color: rgb(0, 0, 0);
+  font-size: 48px;
 }
 
+.deals-Img {
+  width: 800px;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.041));
+}
 
 .wellcomeParty {
   width: 1320px;
@@ -68,63 +62,113 @@ width: 800px;
   border-radius: 20px;
   margin: 120px auto;
   object-fit: cover;
-  background-image:linear-gradient(-90deg, rgba(0, 0, 0, 0) , rgb(0, 4, 0)) , url(IMG/images/Vectorrr.png) ;
+  background-image: linear-gradient(-90deg, rgba(0, 0, 0, 0), rgb(0, 4, 0)),
+    url(IMG/images/Vectorrr.png);
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding:126px ;
+  padding: 126px;
   justify-content: center;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.26);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.041);
   color: white;
 }
 
-.wellcomeParty p{
-    font-size: 20px;
-    margin-top: 24px;
+.wellcomeParty p {
+  font-size: 20px;
+  margin-top: 24px;
 }
-.wellcomeParty > a{
-    font-size: 32px;
-    color: white;
-    text-decoration: none;
-    margin-top: 48px;
+.wellcomeParty > a {
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+  margin-top: 48px;
 }
-.info{
- width: 1320px;
+.info {
+  width: 1320px;
   height: 600px;
   border-radius: 20px;
   margin: 120px auto;
-  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0) ,rgba(255, 192, 203, 0.596) ); 
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0),
+    rgba(255, 192, 203, 0.596)
+  );
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding:126px ;
+  padding: 126px;
   justify-content: center;
-
 }
 
-.info-txt{
-    font-size: 42px;
-    color: black;
-    font-weight: 600;
-    margin-bottom: 48px;
-    text-align: center;
+.info-txt {
+  font-size: 42px;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 48px;
+  text-align: center;
 }
 
-.info-txt  span{
-    color: red;
+.info-txt span {
+  color: red;
 }
 
-.info button{
-
-    width: 170px;
-    height: 60px;
+.info button {
+  width: 170px;
+  height: 60px;
   border-radius: 10px;
   background-color: crimson;
   color: white;
-    font-size: 22px;
-    font-weight: 600;
-    text-transform: uppercase;
-    border: none;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.26);
+}
 
+.better-offer {
+  width: 1320px;
+  border-radius: 20px;
+  margin: 120px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.04);
+  color: rgb(12, 0, 0);
+}
+
+.title h1 {
+  font-size: 33px;
+  text-transform: capitalize;
+  padding: 10px 40px;
+  color: #c9425d;
+}
+.title h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 10px 40px;
+  color: crimson;
+  font-weight: 600;
+}
+.title1 h1 {
+  color: black;
+}
+
+.better-offer p {
+  text-align: left;
+  padding: 10px 40px;
+  font-size: 22px;
+}
+
+.better-offer-right img {
+  margin-left: 40px;
+  width: 140px;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.308));
+}
+
+.better-offer-middle img {
+  padding: 20px;
+  border-radius: 50%;
+  filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.308));
+
+  border: 10px solid #c9425d;
 }
