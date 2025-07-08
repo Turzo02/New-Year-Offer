@@ -7,8 +7,10 @@
 .banner {
   width: 1320px;
   height: 600px;
-  border-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
   margin: 120px auto;
+  margin-top: 0;
   object-fit: cover;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgb(0, 4, 0)),
     url(IMG/images/Banner\ Image.png);
@@ -24,9 +26,11 @@
 .banner-txt {
   color: white;
 }
+
 .banner-heading1 {
   font-size: 72px;
 }
+
 .banner-heading3 {
   font-size: 32px;
 }
@@ -37,6 +41,7 @@
   justify-content: center;
   flex-direction: column;
 }
+
 .deals-details {
   padding: 48px;
 }
@@ -45,10 +50,12 @@
   color: crimson;
   font-size: 88px;
 }
+
 .deals-h5 {
   color: crimson;
   font-size: 24px;
 }
+
 .deals-h2 {
   color: rgb(0, 0, 0);
   font-size: 48px;
@@ -80,22 +87,22 @@
   font-size: 20px;
   margin-top: 24px;
 }
-.wellcomeParty > a {
+
+.wellcomeParty>a {
   font-size: 32px;
   color: white;
   text-decoration: none;
   margin-top: 48px;
 }
+
 .info {
   width: 1320px;
   height: 600px;
   border-radius: 20px;
   margin: 120px auto;
-  background-image: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0),
-    rgba(255, 192, 203, 0.596)
-  );
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0),
+      rgba(255, 192, 203, 0.596));
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,6 +152,7 @@
   padding: 10px 40px;
   color: #c9425d;
 }
+
 .title h4 {
   font-size: 18px;
   text-transform: capitalize;
@@ -152,6 +160,7 @@
   color: crimson;
   font-weight: 600;
 }
+
 .title1 h1 {
   color: black;
 }
@@ -189,27 +198,33 @@
 
   border-radius: 20px;
 }
+
 .salesInfo {
   width: 1320px;
   text-align: center;
   padding: 0 120px;
   color: black;
 }
+
 .salesInfo h1 {
   font-size: 72px;
   font-weight: 800;
   margin-bottom: 15px;
 }
+
 .salesInfo h5 {
   font-size: 24px;
 }
+
 .salesInfo p {
   font-size: 24px;
   margin-bottom: 40px;
 }
+
 .salesInfo span {
   color: crimson;
 }
+
 .salesImg {
   border-radius: 20px;
   width: 1320px;
@@ -233,11 +248,13 @@
   font-size: 48px;
   padding: 10px 0px;
 }
+
 .PCinfo h4 {
   color: crimson;
   font-size: 30px;
   text-transform: capitalize;
 }
+
 .PCinfo p {
   color: rgba(0, 0, 0, 0.575);
   font-size: 25px;
@@ -250,6 +267,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .PCImg img {
   border-radius: 20px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.062);
@@ -281,16 +299,19 @@
   font-size: 48px;
   color: black;
 }
+
 .subinfo p {
   font-size: 24px;
   color: rgba(0, 0, 0, 0.5);
   padding: 20px;
 }
+
 .subinfo input,
 button {
   height: 72px;
   border: none;
 }
+
 .subinfo input {
   width: 400px;
   border-top-left-radius: 50px;
@@ -299,6 +320,7 @@ button {
   font-size: 1.1em;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.068);
 }
+
 .subinfo button {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -310,4 +332,44 @@ button {
   font-weight: 500;
   color: white;
   box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.226);
+}
+
+footer {
+  background-color: #070211;
+  color: white;
+  padding: 20px 140px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footerinfo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.footericon {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.footerCopyright {
+  padding: 20px;
+  text-align: center;
+}
+
+.num,
+.web {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
