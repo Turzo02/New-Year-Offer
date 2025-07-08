@@ -32,7 +32,10 @@
 }
 
 .deals {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .deals-details {
   padding: 48px;
@@ -53,7 +56,7 @@
 
 .deals-Img {
   width: 800px;
-  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.041));
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.341));
 }
 
 .wellcomeParty {
@@ -171,4 +174,52 @@
   filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.308));
 
   border: 10px solid #c9425d;
+}
+
+.sales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 120px auto;
+  
+
+}
+
+.salescont{
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.057);
+
+  border-radius: 20px;
+}
+.salesInfo {
+  width: 1320px;
+  text-align: center;
+  padding: 0 120px;
+  color: black;
+  
+}
+.salesInfo h1 {
+  font-size: 72px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.salesInfo h5 {
+  font-size: 24px;
+}
+.salesInfo p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.salesInfo span {
+  color: crimson;
+}
+.salesImg {
+  border-radius: 20px;
+  width: 1320px;
+
+  height: 660px;
+  background-position:bottom left , top right, bottom;
+  background-image: url("IMG/images/Group\ 75.png"),
+    url(IMG/images/Group\ 44.png), url(IMG/images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
 }
