@@ -182,11 +182,9 @@
   justify-content: center;
   flex-direction: column;
   margin: 120px auto;
-  
-
 }
 
-.salescont{
+.salescont {
   box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.057);
 
   border-radius: 20px;
@@ -196,7 +194,6 @@
   text-align: center;
   padding: 0 120px;
   color: black;
-  
 }
 .salesInfo h1 {
   font-size: 72px;
@@ -218,8 +215,42 @@
   width: 1320px;
 
   height: 660px;
-  background-position:bottom left , top right, bottom;
+  background-position: bottom left, top right, bottom;
   background-image: url("IMG/images/Group\ 75.png"),
     url(IMG/images/Group\ 44.png), url(IMG/images/Rectangle\ 2.png);
   background-repeat: no-repeat;
+}
+
+.portfolioContainer {
+  width: 1320px;
+  border-radius: 20px;
+  margin: 120px auto;
+  /* background: red; */
+}
+
+.PCinfo h1 {
+  color: black;
+  font-size: 48px;
+  padding: 10px 0px;
+}
+.PCinfo h4 {
+  color: crimson;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.PCinfo p {
+  color: rgba(0, 0, 0, 0.575);
+  font-size: 25px;
+}
+
+.PCImg {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.PCImg img {
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.123);
 }
